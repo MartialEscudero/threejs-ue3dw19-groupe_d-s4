@@ -83,6 +83,8 @@ function animate() {
 
   requestAnimationFrame(animate);
 
+  f22.rotation.z += 0.012;
+
   render();
   stats.update();
 
